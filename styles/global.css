@@ -31,3 +31,7 @@ body {
   font: var(--text-md);
   color: var(--gray-600);
 }
+
+img {
+  max-width: 100%;
+}
