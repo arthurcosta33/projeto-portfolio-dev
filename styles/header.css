@@ -43,7 +43,6 @@ h1 {
 p {
   font: var(--text-sm);
   color: var(--gray-400);
-  padding-bottom: 80px;
 }
 
 .tags-container {
@@ -73,5 +72,4 @@ p {
 .setas-baixo {
   display: flex;
   margin: 96px auto 57px auto;
-
 }

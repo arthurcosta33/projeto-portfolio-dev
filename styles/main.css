@@ -1,0 +1,44 @@
+.projects-container {
+  max-width: 1040px;
+  margin-inline: auto;
+}
+
+main {
+  padding-inline: 164px;
+  background-color: var(--gray-200);
+  padding-bottom: 144px;
+}
+
+main p:first-child {
+  color: var(--red);
+  text-align: center;
+  padding-top: 72px;
+  font: var(--subtitle);
+}
+
+main h2 {
+  text-align: center;
+  font: var(--title-md);
+  margin: 8px auto 56px auto;
+}
+
+.card {
+  background-color: var(--gray-300);
+  border-radius: 12px;
+  padding: 20px 16px 20px 16px;
+  width: 330px;
+  height: 280px;
+}
+
+.card img {
+  border-radius: 8px;
+}
+
+.card h3 {
+  margin-top: 20px;
+  font: var(--title-sm);
+}
+
+.card p {
+  font: var(--text-sm);
+}
