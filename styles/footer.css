@@ -1,0 +1,101 @@
+footer {
+  background-image: url(../assets/images/Background_Contacts.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 750px;
+  padding: 128px 483px 200px 483px;
+}
+
+footer h3 {
+  text-align: center;
+  font: var(--subtitle);
+  color: var(--purple);
+  margin-bottom: 8px;
+}
+
+footer h2 {
+  text-align: center;
+  font: var(--title-md);
+  margin-bottom: 8px;
+}
+
+footer p {
+  text-align: center;
+  font: var(--text-md);
+  margin-bottom: 48px;
+}
+
+.button-contact {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--gray-300);
+  border-radius: 8px;
+  padding: 20px;
+  font: var(--text-md);
+  gap: 12px;
+}
+
+.button-contact figcaption {
+  display: flex;
+  align-items: center;
+  margin-right: auto;
+}
+
+a {
+  text-decoration: none;
+  color: var(--gray-500);
+}
+
+.button-contact-container {
+  max-width: 400px;
+  margin: auto;
+}
+
+.button-contact:hover {
+  border: 1px solid var(--blue);
+}
+
+.contact-img {
+  width: 28px;
+  height: 28px;
+  background-image: url(../assets/icons/LinkedinLogo.svg);
+}
+
+.contact-text {
+  flex: 1;
+}
+
+.button-contact:hover .contact-img {
+  background-image: url(../assets/icons/LinkedinLogoBlue.svg);
+}
+
+.contact-img-instagram {
+  width: 28px;
+  height: 28px;
+  background-image: url(../assets/icons/InstagramLogo.svg);
+}
+
+.button-contact:hover .contact-img-instagram {
+  background-image: url(../assets/icons/InstagramLogoBlue.svg);
+}
+
+.contact-img-github {
+  width: 28px;
+  height: 28px;
+  background-image: url(../assets/icons/GithubLogo.svg);
+}
+
+.button-contact:hover .contact-img-github {
+  background-image: url(../assets/icons/GithubLogoBlue.svg);
+}
+
+.contact-img-email {
+  width: 28px;
+  height: 28px;
+  background-image: url(../assets/icons/EnvelopeSimple.svg);
+}
+
+.button-contact:hover .contact-img-email {
+  background-image: url(../assets/icons/EnvelopeSimpleBlue.svg);
+}
