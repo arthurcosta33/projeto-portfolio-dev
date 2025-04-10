@@ -27,6 +27,7 @@ footer p {
 
 .button-contact {
   display: flex;
+  border: 1px solid transparent;
   align-items: center;
   justify-content: space-between;
   background-color: var(--gray-300);

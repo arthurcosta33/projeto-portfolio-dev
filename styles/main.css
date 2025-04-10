@@ -79,3 +79,7 @@ main h2 {
   margin-top: 12px;
   margin-bottom: 8px;
 }
+
+.dev-ops {
+  white-space: nowrap;
+}
